@@ -2,6 +2,13 @@
 
 Author: Amir Noiboar (ID 027480110)
 
+
+## Repository Contents
+
+- `MMN_13_course_22969_Amir_Noiboar.ipynb` – main notebook containing all implementations and experiments
+- `requirements.txt` – full Python environment used for this project
+
+
 ## Project Overview
 
 This project investigates inference-time acceleration in GPT2-style language models using Key-Value (KV) caching.
@@ -59,3 +66,18 @@ Larger GPT-2 models
 
 while requiring additional linear memory to store cached keys and values.
  
+
+## Reference
+
+- Sebastian Raschka, *LLMs-from-scratch*  
+  https://github.com/rasbt/LLMs-from-scratch
+
+
+## Requirements
+
+The Python environment used for this project is documented in `requirements.txt`.
+
+To install the required dependencies:
+
+```bash
+pip install -r requirements.txt
