@@ -17,31 +17,29 @@ and explores whether similar efficiency gains can be obtained within the standar
 Implementation of KV-cache support in a GPT-2 model based on the
 LLMs-from-scratch repository by Sebastian Raschka.
 
-Verification of identical outputs between:
+### Verification of identical outputs between:
 
 Regular autoregressive decoding
 
 KV-cache-accelerated decoding
 
-Benchmarking inference speed across:
+### Benchmarking inference speed across:
 
 Multiple prompt lengths
 
 Multiple model sizes (GPT-2 Small, Medium, Large)
 
-Empirical demonstration of:
+### Empirical demonstration of:
 
 Stable decoding throughput with KV-cache
 
 Quadratic slowdown without KV-cache
 
-The memory–speed trade-off introduced by caching
-
 ## How to Run
 
 Create a Python environment with PyTorch + CUDA.
 
-Open the notebook MMN_13_course_22969_Amir_Noiboar.ipynb and run all cells to:
+### Open the notebook MMN_13_course_22969_Amir_Noiboar.ipynb and run all cells to:
 
 Load pretrained GPT-2 weights
 
@@ -53,7 +51,7 @@ Produce plots
 
 ## Key Result
 
-KV-cache provides significant decoding speedup for:
+### KV-cache provides significant decoding speedup for:
 
 Long prompts
 
